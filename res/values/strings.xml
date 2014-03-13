@@ -1,35 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
-
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="app_name">Jobbe Chat</string>
-    <string name="action_websearch">Web search</string>
+    <string name="action_add">New Friend</string>
     <string name="app_not_available">Sorry, there\'s no web browser available</string>
     <string name="hello_world">Jobbe Chat</string>
-    <string name="input_messenge_hint">Input your messenge</string>
+    <string name="input_messenge_hint">Input your message</string>
+    <string name="send_icon">&#xe600;</string>
 
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="register">Register</string>
+    
+    
+    
 </resources>

@@ -1,0 +1,10 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false"><inset xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/btn_send_disabled" android:insetBottom="3dip" android:insetLeft="3dip" android:insetRight="3dip" android:insetTop="3dip" />
+    </item>
+    <item android:drawable="@drawable/btn_send_inset_background" android:state_focused="true" android:state_pressed="false"/>
+    <item android:drawable="@drawable/btn_send_gradient" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_send_gradient" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_send_inset_background"/>
+
+</selector>

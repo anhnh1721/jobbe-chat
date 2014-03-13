@@ -8,9 +8,6 @@
 package fu.se629.jobbe_chat;
 
 public final class R {
-    public static final class array {
-        public static final int planets_array=0x7f050000;
-    }
     public static final class attr {
     }
     public static final class dimen {
@@ -25,51 +22,75 @@ public final class R {
     }
     public static final class drawable {
         public static final int action_bar_background=0x7f020000;
-        public static final int action_search=0x7f020001;
-        public static final int avata_default=0x7f020002;
-        public static final int drawer_shadow=0x7f020003;
-        public static final int earth=0x7f020004;
-        public static final int ic_drawer=0x7f020005;
-        public static final int ic_launcher=0x7f020006;
-        public static final int jupiter=0x7f020007;
-        public static final int list_friend_divider=0x7f020008;
-        public static final int mars=0x7f020009;
-        public static final int mercury=0x7f02000a;
-        public static final int neptune=0x7f02000b;
-        public static final int saturn=0x7f02000c;
-        public static final int uranus=0x7f02000d;
-        public static final int venus=0x7f02000e;
+        public static final int avata_default=0x7f020001;
+        public static final int btn_login_disable=0x7f020002;
+        public static final int btn_login_effect=0x7f020003;
+        public static final int btn_login_focus=0x7f020004;
+        public static final int btn_login_visiable=0x7f020005;
+        public static final int btn_send_disabled=0x7f020006;
+        public static final int btn_send_effect=0x7f020007;
+        public static final int btn_send_gradient=0x7f020008;
+        public static final int btn_send_inset_background=0x7f020009;
+        public static final int btn_send_visiable=0x7f02000a;
+        public static final int drawer_shadow=0x7f02000b;
+        public static final int ic_add_gray=0x7f02000c;
+        public static final int ic_drawer=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int layout_border=0x7f02000f;
+        public static final int layout_login_border=0x7f020010;
+        public static final int list_friend_divider=0x7f020011;
+        public static final int msg_bubble_left=0x7f020012;
+        public static final int msg_bubble_right=0x7f020013;
+        public static final int orca_voice_bubble_right_normal_neue=0x7f020014;
     }
     public static final class id {
-        public static final int action_websearch=0x7f09000b;
-        public static final int btnSend=0x7f090006;
-        public static final int drawer_layout=0x7f090000;
-        public static final int friendAvata=0x7f090007;
-        public static final int friendName=0x7f090008;
-        public static final int input_messenge=0x7f090005;
-        public static final int lastMessenge=0x7f09000a;
-        public static final int linearLayout1=0x7f090004;
-        public static final int list_friend_chat=0x7f090002;
-        public static final int list_messenge=0x7f090003;
-        public static final int screen_chat=0x7f090001;
-        public static final int timeLastMessenge=0x7f090009;
+        public static final int action_add=0x7f080015;
+        public static final int btnLogin=0x7f080009;
+        public static final int btnRegister=0x7f08000a;
+        public static final int btnSend=0x7f08000e;
+        public static final int btn_logout=0x7f080004;
+        public static final int drawer_layout=0x7f080000;
+        public static final int edtMessage=0x7f08000d;
+        public static final int edtPassword=0x7f080008;
+        public static final int edtUsername=0x7f080007;
+        public static final int friendAvata=0x7f08000f;
+        public static final int friendName=0x7f080010;
+        public static final int home_tab=0x7f080002;
+        public static final int imgIcon=0x7f080005;
+        public static final int lastMessenge=0x7f080012;
+        public static final int layer_input=0x7f08000c;
+        public static final int list_friend=0x7f080003;
+        public static final int list_message=0x7f08000b;
+        public static final int msg_chat=0x7f080014;
+        public static final int screen_chat=0x7f080001;
+        public static final int timeLastMessenge=0x7f080011;
+        public static final int txtMessage=0x7f080006;
+        public static final int wrapper=0x7f080013;
     }
     public static final class layout {
         public static final int activity_home=0x7f030000;
-        public static final int fragment_chat=0x7f030001;
-        public static final int friend_chat_item=0x7f030002;
+        public static final int activity_login=0x7f030001;
+        public static final int fragment_chat=0x7f030002;
+        public static final int friend_item=0x7f030003;
+        public static final int message_item=0x7f030004;
     }
     public static final class menu {
-        public static final int home=0x7f080000;
+        public static final int home=0x7f070000;
     }
     public static final class string {
-        public static final int action_websearch=0x7f060003;
-        public static final int app_name=0x7f060002;
-        public static final int app_not_available=0x7f060004;
-        public static final int drawer_close=0x7f060001;
-        public static final int drawer_open=0x7f060000;
-        public static final int hello_world=0x7f060005;
-        public static final int input_messenge_hint=0x7f060006;
+        public static final int action_add=0x7f050003;
+        public static final int app_name=0x7f050002;
+        public static final int app_not_available=0x7f050004;
+        public static final int drawer_close=0x7f050001;
+        public static final int drawer_open=0x7f050000;
+        public static final int hello_world=0x7f050005;
+        public static final int input_messenge_hint=0x7f050006;
+        public static final int login=0x7f05000a;
+        public static final int logout=0x7f05000b;
+        public static final int password=0x7f050009;
+        public static final int register=0x7f05000c;
+        public static final int send_icon=0x7f050007;
+        public static final int username=0x7f050008;
     }
     public static final class style {
         /** 
@@ -89,18 +110,18 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070003;
+        public static final int AppBaseTheme=0x7f060003;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070004;
+        public static final int AppTheme=0x7f060004;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     
          */
-        public static final int JobbyTheme=0x7f070000;
-        public static final int JobbyTheme_ActionBar=0x7f070001;
-        public static final int JobbyTheme_ActionBar_TitleTextStyle=0x7f070002;
+        public static final int JobbyTheme=0x7f060000;
+        public static final int JobbyTheme_ActionBar=0x7f060001;
+        public static final int JobbyTheme_ActionBar_TitleTextStyle=0x7f060002;
     }
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/btn_send_visiable"
+    android:insetRight="3dip"
+    android:insetLeft="3dip" 
+    android:insetTop="3dip" 
+    android:insetBottom="3dip" />
